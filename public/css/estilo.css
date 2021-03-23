@@ -1,0 +1,135 @@
+﻿body {
+	font-family: arial, helvetica;
+	color: rgb(50, 50, 50);
+	font-size: 15px;
+}
+
+th, td, p, h2, h4 {
+	text-align: center;
+}
+
+th {
+	background-color: rgb(50, 50, 50);
+	color: white;
+}
+
+td {
+	font-size: 14px;
+	height: 40px;
+}
+
+th, p, ul {
+	font-size: 15px;
+}
+
+.pagination {
+	justify-content: center;
+}
+
+#logo {
+	font-size: 40px;
+}
+
+#texto-logo {
+	margin-top: 20px;
+}
+
+.a_th:link, .a_th:visited {
+	color: white;
+}
+
+.a_th:hover {
+	color: limegreen;
+	text-decoration: none;
+}
+
+.a_th:active {
+	color: lime;
+}
+
+.a:link, .a:visited {
+	color: dodgerblue;
+}
+
+.a:hover {
+	color: limegreen;
+}
+
+.a:active {
+	color: lime;
+}
+
+.a_nav {
+	font-size: 16px;
+}
+
+.a_nav:link, .a_nav:visited {
+	color: dodgerblue;
+}
+
+.a_nav:hover {
+	color: limegreen;
+}
+
+.a_nav:active {
+	color: lime;
+}
+
+div.stri>div:nth-of-type(odd) {
+	background: rgba(192, 192, 192, 0.25);
+}
+
+tr:nth-child(even) {
+	background-color: rgba(192, 192, 192, 0.25);
+}
+
+.filtros-input, .filtros-input-listado, .filtros-select, .filtros-select-tipo {
+	font-size: 15px;
+}
+
+#info {
+	font-size: 17px;
+}
+
+.word-break {
+	word-break: break-all;
+}
+
+.nav_link_text {
+	font-size: 15px;
+}
+
+.text_info {
+	text-align: left;
+	font-size: 15px;
+}
+
+.ad_tab {
+	font-size: 12px;
+	color: dodgerblue;
+	border-style: solid;
+	border-width: 1px;
+	padding: 1px 4px;
+}
+
+@media (orientation: portrait) {
+	#logo {
+		font-size: 30px;
+	}
+	#texto-logo {
+		margin-top: 9px;
+	}
+	.filtros-input, .filtros-input-listado, .filtros-select, .filtros-select-tipo {
+		font-size: 12px;
+		width: 100px;
+	}
+	th, td {
+		font-size: 11px;
+	}
+	p {
+		font-size: 12px;
+	}
+	#detalles {
+		font-size: 9px;
+	}
+}
