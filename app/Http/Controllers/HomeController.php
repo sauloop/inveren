@@ -14,11 +14,11 @@ class HomeController extends Controller
 {
     public function index(Request $request, LinkFilter $filters, Sortable $sortable)
     {
-        // $host = $request->getHttpHost();
+        $host = $request->getHttpHost();
 
-        // if ($host === 'radiant-dawn-56094.herokuapp.com') {
-        //     return Redirect::to('https://inverenlace.com', 301);
-        // }
+        if ($host === 'https://inverenlace.herokuapp.com/') {
+            return Redirect::to('https://www.inverenlace.com', 301);
+        }
 
         $title = 'Inicio';
 
