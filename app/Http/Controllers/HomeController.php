@@ -16,7 +16,7 @@ class HomeController extends Controller
     {
         $host = $request->getHttpHost();
 
-        if ($host === 'https://inverenlace.herokuapp.com/') {
+        if ($host === 'inverenlace.herokuapp.com') {
             return Redirect::to('https://www.inverenlace.com', 301);
         }
 
