@@ -56,7 +56,7 @@
                                         {{ old('remember') ? 'checked' : '' }}>
 
                                     <label class="form-check-label" for="remember">
-                                        {{ __('Recuérdame') }}
+                                        {{ __('Recuerdame') }}
                                     </label>
                                 </div>
                             </div>
